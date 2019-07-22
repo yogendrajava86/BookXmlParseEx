@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ebs="http://www.ebay.in/types/sale"
+xmlns:sun="http://www.sun.org/types/author"
+ targetNamespace="http://www.ebay.in/types/sale" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	
+	<xs:import namespace="http://www.sun.org/types/author" schemaLocation="D:\\JavaApp\\AltovaWorkspace\\XSD\\Author.xsd" />
+	<xs:complexType name="BookType">
+		<xs:sequence>
+			<xs:element name="book-title" type="xs:string"/>
+			<xs:element name="book-price" type="xs:double"/>
+			<xs:element name="book-isbh" type="xs:string" nillable="true"/>
+			<xs:element ref="sun:author-info"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="book-info" type="ebs:BookType"/>
+</xs:schema>

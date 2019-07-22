@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:sun="http://www.sun.org/types/author" targetNamespace="http://www.sun.org/types/author" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="AuthorType">
+		<xs:sequence>
+			<xs:element name="author-name" type="xs:string" />
+			<xs:element name="author-email" type="xs:string" />			
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="author-info" type="sun:AuthorType"/>
+</xs:schema>
