@@ -34,7 +34,7 @@ public class Test {
 		Validator validator=schema.newValidator();
 		validator.validate(new StreamSource(xmlPath));
 		}catch(Exception ex) {
-			//ex.printStackTrace();
+			//ex.printStackTrace(); 
 			return false;
 		}
 		return true;
