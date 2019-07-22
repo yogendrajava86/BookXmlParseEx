@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebs:book-info xmlns:ebs="http://www.ebay.in/types/sale" xmlns:sun="http://www.sun.org/types/author" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ebay.in/types/sale file:///D:/JavaApp/AltovaWorkspace/XSD/Book.xsd">
+	<ebs:book-title>Java</ebs:book-title>
+	<ebs:book-price>555.50</ebs:book-price>
+	<ebs:book-isbh>AWS</ebs:book-isbh>
+	<sun:author-info>
+		<sun:author-name>Yogendra Kumar Dixit</sun:author-name>
+		<sun:author-email>yogendra.java86@gmail.com</sun:author-email>
+	</sun:author-info>
+</ebs:book-info>
